@@ -1,6 +1,5 @@
 from django.db import models
 
-
 class Component(models.Model):
     name = models.CharField(max_length=100, verbose_name='Название компонента')
     quantity = models.PositiveIntegerField(verbose_name='Количество')
